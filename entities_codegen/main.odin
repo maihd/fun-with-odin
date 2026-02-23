@@ -52,7 +52,7 @@ main :: proc() {
                     for attr in value_decl.attributes {
                         attr := attr.derived.(^ast.Attribute)
                         for elem in attr.elems {
-                            elem_indent := elem.derived.(^ast.Ident)
+                            elem_indent := elem.derived.(^ast.Ident) or_continue // skip attribute have fields
                             if elem_indent.name == "entity" {
                                 has_attr = true
                             }
@@ -110,7 +110,7 @@ main :: proc() {
                     for attr in value_decl.attributes {
                         attr := attr.derived.(^ast.Attribute)
                         for elem in attr.elems {
-                            elem_indent := elem.derived.(^ast.Ident)
+                            elem_indent := elem.derived.(^ast.Ident) or_continue // skip attribute have fields
                             if elem_indent.name == "entity_proc" {
                                 has_attr = true
                             }
