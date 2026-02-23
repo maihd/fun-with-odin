@@ -9,5 +9,5 @@
             "path": "./"
         } 
     ],
-    "checker_args": "-custom-attribute:entity -custom-attribute:entity_proc"
+    "checker_args": "-custom-attribute:entity -custom-attribute:entity_proc -custom-attribute:route"
 }

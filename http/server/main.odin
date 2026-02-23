@@ -21,13 +21,15 @@ main :: proc() {
     port := 5000
     log.infof("Listening on http://%v:%v", host, port)
 
-    http.route_get(&router, "/api/hello_world", http.handler(proc(req: ^http.Request, res: ^http.Response) {
-        http.respond_plain(res, "Hello world!", http.Status.OK)
-    }))
+    // http.route_get(&router, "/api/hello_world", http.handler(proc(req: ^http.Request, res: ^http.Response) {
+    //     http.respond_plain(res, "Hello world!", http.Status.OK)
+    // }))
 
-    http.route_get(&router, "(.*)", http.handler(proc(req: ^http.Request, res: ^http.Response) {
-        http.respond_plain(res, "Not Found!", .Not_Found)
-    }))
+    // http.route_get(&router, "(.*)", http.handler(proc(req: ^http.Request, res: ^http.Response) {
+    //     http.respond_plain(res, "Not Found!", .Not_Found)
+    // }))
+
+    register_routes(&router)
 
     routed := http.router_handler(&router)
 
