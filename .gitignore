@@ -8,3 +8,7 @@
 *.lib
 *.pdb
 *.exe
+
+# Rad Debugger
+raddbg
+*.rdi
