@@ -1,6 +1,6 @@
 package ui
 
-import clay "clay/bindings/odin/clay-odin"
+import clay "clay-odin"
 import rl "vendor:raylib"
 import "core:strings"
 import "core:math"
@@ -30,7 +30,7 @@ main :: proc() {
     clay.Initialize(arena, { f32(rl.GetScreenWidth()), f32(rl.GetScreenHeight())}, { handler = error_handler })
     clay.SetMeasureTextFunction(measure_text, &render_state)
 
-    load_font(&render_state, FONT_ID_ALL, 16, "ui/clay/bindings/odin/examples/clay-official-website/resources/Quicksand-Semibold.ttf")
+    load_font(&render_state, FONT_ID_ALL, 16, "ui/resources/Quicksand-Semibold.ttf")
 
     for !rl.WindowShouldClose() {
         defer free_all(context.temp_allocator)
@@ -49,7 +49,7 @@ main :: proc() {
 
         if clay.UI(clay.ID("ButtonClick"))({ 
             layout = { padding = { 16, 16, 6, 6 } }, 
-            backgroundColor = {240, 213, 137, 255},
+            backgroundColor = clay.Hovered() ? {220, 193, 114, 255} : {240, 213, 137, 255},
             cornerRadius = clay.CornerRadiusAll(10)
         }) {
             clay.Text("Click Me!", clay.TextConfig({
