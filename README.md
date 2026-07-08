@@ -1,5 +1,6 @@
 # Fun With Odin
-Odin examples and experimental simple projects. Embrace the joy of programming.
+Odin examples and experimental simple projects. Embrace the Joy of Programming.
+
 
 ## Exploring Odin Compiler
 - Full compiler help: `odin_compiler/odin_run_help.txt` (it too long to read in terminal)
@@ -7,6 +8,7 @@ Odin examples and experimental simple projects. Embrace the joy of programming.
 - Using compiler as a service: `./entities_codegen`
 - Lint and static checkers: vet and families
 - Custom attributes: `ols.json` and `./entities_codegen`
+
 
 ## Odin unique and utility features
 - bit_set
@@ -20,3 +22,9 @@ Odin examples and experimental simple projects. Embrace the joy of programming.
 - Tag for function
 - Function conventions
 - Attributes and custom attributes
+- Battery included Odin syntaxes parser for codegen
+
+
+## Campaigning
+Gamified learning progress, embracing Joy of Programming (more).
+- `campaigns/overview`
