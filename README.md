@@ -25,6 +25,10 @@ Odin examples and experimental simple projects. Embrace the Joy of Programming.
 - Battery included Odin syntaxes parser for codegen
 
 
+## Benefits of Odin for real life software
+- [Imaginary: if Bitsquid and Our Machinery was made with Odin](odin-bitsquid-foundation)
+
+
 ## Campaigning
 Gamified learning progress, embracing Joy of Programming (more).
 - `campaigns/overview`
