@@ -14,3 +14,6 @@
 ## Potion: Unit Testing Framework (Self-Created)
 - What it is: A collection of small Odin test scripts (#test blocks) built right into your code.
 - In-game Effect: Instantly restores sanity. Every time you write a CPU instruction (like `ADD A, B`), you write a quick test for it. If you break the instruction later while rewriting code, the test suite instantly alerts you.
+- Status:
+    - Memory
+    - ROM loader

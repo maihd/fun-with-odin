@@ -2,7 +2,7 @@
 
 ## Act 1. The Silicon Awakening (CPU & Memory)
 Your journey begins in the void. You must forge the core consciousness of the machine.
-- Quest 1: The Void Container. Create the 64KB memory map layout and register structures in Odin.
+- [x] Quest 1: The Void Container. Create the 64KB memory map layout and register structures in Odin.
 - Quest 2: Fetch and Decode. Implement the basic fetch-decode-execute loop that reads a single byte from memory and matches it to an instruction.
 - Boss: Sir Blargg's Gaunlet (The Instruction Set). Implement all 244 core CPU opcodes and pass Blargg's basic CPU instruction test ROM. He will relentlessly strike you down with subtle flag logic bugs if you math if off.
 

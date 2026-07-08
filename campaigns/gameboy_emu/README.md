@@ -4,24 +4,14 @@ Gamified Emu Dev to learn Gameboy Hardware and Odin.
 
 ## Status
 - Progress: Act 1 - Quest 2
+- Equipments:
+    - Unit testing
+    - ROM for testing
 
-
-## Earning
-- Hardware Architecture: Level 2
-    - Basic CPU architecture: Registers, Flags (State Machine), Stack Pointer, Program Counter, Cycles Tracking
-    - Memory: 
-        - BUS: Simple block of bytes, supporting direct access
-        - Partitions: Support view memory map
-
-- Binary Mathematics Skills: Level 2
-    - Bit flags
-    - Bit fields
-    - Union
-
-- Odin Architecture Skills: Level 2
-    - `bit_set`
-    - `bit_field`
-    - `#packed`/`#raw_union`
+- Skill tree:
+    - Hardware Architecture: Level 1
+    - Binary Mathematics Skills: Level 2
+    - Odin Architecture Skills: Level 3
 
 
 ## Source code organization

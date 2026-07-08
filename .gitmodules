@@ -1,0 +1,3 @@
+[submodule "campaigns/gameboy_emu/assets/gb-test-roms"]
+	path = campaigns/gameboy_emu/assets/gb-test-roms
+	url = https://github.com/retrio/gb-test-roms
