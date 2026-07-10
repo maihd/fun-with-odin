@@ -54,7 +54,7 @@ Act & Quest was extract from https://odin-lang.org/docs/overview
 
 
 ## Act 4. Free Exploration
-- Quest 17: Parametic polymorphism: Meta-strategy & combo
+- [x] Quest 17: Parametic polymorphism: Meta-strategy & combo
 - Quest 18: `->` operator: selector call expressions, shorthand combo
 - Quest 19: Attributes: special & custom your skills
 - Quest 20: Directives: Cheat code
