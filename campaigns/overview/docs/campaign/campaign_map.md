@@ -46,7 +46,7 @@ Act & Quest was extract from https://odin-lang.org/docs/overview
 ## Act 3. Advanced
 - Quest 13. Conditional compilation: Your strategy for each special region's hidden boss (os platform)
 - Quest 14. Implicit context system: The stats system working across your characters (package & procedures)
-- Quest 15. Foreign system: Amiibo, Cheating (import C ABI functions from static or shared libraries)
+- [x] Quest 15. Foreign system: Amiibo, Cheating (import C ABI functions from static or shared libraries)
 - Quest 16. Vendor libraries: Ready to use Amiibo (Raylib, SDL3, stb, ...)
 - Boss 8: Create raylib program
 - Boss 9: Create linux & windows library (using condiontal compilation)
