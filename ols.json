@@ -3,11 +3,11 @@
     "enable_document_symbols": true,
     "enable_hover": true,
     "enable_snippets": true,
-    "collections": [ 
+    "collections": [
         {
             "name": "shared",
             "path": "./"
-        } 
+        }
     ],
     "checker_args": "-custom-attribute:entity -custom-attribute:entity_proc -custom-attribute:route"
 }

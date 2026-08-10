@@ -98,7 +98,7 @@ main :: proc() {
     route_register_calls := slice.mapper(routes[:], proc(x: Route) -> string {
         return fmt.tprintf("http.route_%s(router, %q, http.handler(%s))", x.method, x.path, x.proc_name)
     })
-    
+
     file_template := `
 // THIS FILE IS GENERATED, DO NOT EDIT!
 

@@ -25,7 +25,7 @@
 - Error handling:
     - Error context
     - Crashing as unignorable error
-    - Return multiple values and or_* operator
+    - Return multiple values and `or_*` operator
     - Logging supported by context system
     - Context pass as last argument
 - Code structure:
@@ -40,8 +40,8 @@
 ## Advanced topics, outside bitsquid foundation topics (not mentioned or rarely mentioned)
 - Refactoring
 - Later on, we will enter the new world: Our Mechaniery engine, it have good posts when developing game engine in C.
-- Follow on one of good philosiphy: 
-    - Modern computer are fast, so dont pessimize your code, plain and simple are fast enough
+- Follow on one of good philosiphy:
+    - Modern computer are fast, so don't pessimize your code, plain and simple are fast enough
     - Struct as based concepts for every data structures (in real life it must more complex than this)
 - Source code in Odin, converted from Bitsquid blogs.
 - Interactive blog with Odin and TUI/Curses

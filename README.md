@@ -32,3 +32,5 @@ Odin examples and experimental simple projects. Embrace the Joy of Programming.
 ## Campaigning
 Gamified learning progress, embracing Joy of Programming (more).
 - `campaigns/overview`
+- `campaigns/gameboy_emu`
+
