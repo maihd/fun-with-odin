@@ -10,5 +10,12 @@
 - `or_break`: if false, break loop
 - `or_continue`: if false, continue loop
 - `or_else`: if false, use the value of expression after this operator
-- `?`: use for Maybe(T) or type inference (only worked for typed variable)
+- `.?`: use for Maybe(T) or type inference (only worked for typed variable)
 - `or_x` operators are mostly for simplified control flow, avoid nested if and redundancy variables (too much `ok`)
+- `value, success := map_var[key]` try get syntatic sugar for map
+- `member, success := union_var.(Member_Type)` down casting union into member
+- Zero is Invented, zero values: `{} nil "" 0`
+
+## Additional resources
+- https://www.gingerbill.org/article/2026/01/02/was-it-really-a-billion-dollar-mistake/
+- https://www.gingerbill.org/article/2026/01/11/mitigating-the-billion-dollar-mistake/

@@ -11,10 +11,10 @@ Odin examples and experimental simple projects. Embrace the Joy of Programming.
 
 
 ## Odin unique and utility features
-- bit_set
-- bit_field
+- `bit_set`
+- `bit_field`
 - Decrimented union
-- Parametic Polyphism (like Generic but more ergonomic)
+- Parametic Polyphism (like Generic but more ergonomic and features)
 - Array programming
 - Field tags
 - Builtin functions
