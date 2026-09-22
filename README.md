@@ -1,5 +1,6 @@
 # Fun With Odin
 Odin examples and experimental simple projects. Embrace the Joy of Programming.
+If you are interesting in theses examples, I encourage you to repeatly re-written theses examples by-hand daily.
 
 
 ## Exploring Odin Compiler
